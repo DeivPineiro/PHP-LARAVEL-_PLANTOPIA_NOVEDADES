@@ -1,0 +1,412 @@
+@font-face {
+    font-family: MADE-TOMMY;
+    src: url(../storage/fonts/MADE_TOMMY_bold_PERSONAL_USE.otf);
+    src: url(../storage/fonts/MADE_TOMMY_Regular_PERSONAL_USE.otf);
+}
+
+html {
+    position: relative;
+    min-height: 100vh;
+}
+
+footer {
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+body {
+    font-family: MADE-TOMMY, sans-serif;
+    overflow-x: hidden;
+}
+
+.bg-plantopia {
+    min-height: 10vh;
+    width: 100vw;
+    padding: 0 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+.logo-nav {
+    width: 20vw;
+    padding: 3px;
+    max-width: 400px;
+}
+
+a.nav-link.active {
+    font-weight: bold;
+    color: black;
+}
+
+a.nav-link {
+    color: #2cab67;
+    margin: 0 6px;
+    font-size: 1.025rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.dropdown-menu.show {
+    border: 0;
+    background-color: #f1f1f1;
+    top: 6vh;
+    right: -30px;
+    width: -webkit-fill-available;
+    border-radius: 0;
+    box-shadow: -2px 15px 20px 0px rgb(202 202 202);
+}
+
+.dropdown-item {
+    letter-spacing: 2px;
+    color: #2cab67;
+    text-decoration: none;
+    padding: 4px 16px;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: black;
+    padding: 4px 16px;
+    letter-spacing: 2px;
+}
+
+button.btn.p-2.sesion {
+    font-weight: bold;
+    color: black;
+    border: none;
+}
+
+button.btn.p-2.sesion {
+    color: #2cab67;
+    font-size: larger;
+    border: none;
+}
+
+a.nombre-sesion {
+    display: flex;
+    align-items: center;
+}
+
+p.nombre-sesion {
+    padding-left: 5px;
+    margin: 0;
+}
+
+.dropdown-nav {
+    letter-spacing: 2px;
+    color: #2cab67;
+    text-decoration: none;
+    padding: 4px 16px;
+}
+.dropdown-nav:hover {
+    letter-spacing: 2px;
+    color: black;
+    text-decoration: none;
+    padding: 4px 16px;
+}
+
+.banner {
+    background-image: url("../storage/imgs/sunset-in-the-field-of-wheat-wallpaper-3840x1280_105.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    box-sizing: content-box;
+}
+
+.banner-titulo {
+    font-size: xxx-large;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.banner-parrafo {
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.banner-palabra {
+    background-color: #a16819fa;
+    padding: 3vh;
+    margin: 10px;
+    box-shadow: 0px 0px 20px 2px #000;
+}
+
+.banner-ticket {
+    height: 90vh;
+    background-image: url("../storage/imgs/sunset-in-the-field-of-wheat-wallpaper-3840x1280_105.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    box-sizing: content-box;
+    height: 80vh;
+    padding-top: 10vh;
+}
+
+.banner-ticket-palabra {
+    background-color: #a16819fa;
+    padding: 3vh;
+    box-shadow: 0px 0px 20px 2px #000;
+}
+
+.items {
+    width: 100vw;
+    padding: 15px 0;
+}
+
+.img-iconos {
+    width: 20%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.titulo-icono {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.parrafo-icono {
+    text-align: center;
+    font-size: 16px;
+}
+
+.width {
+    width: 100vw;
+}
+
+.titulo-noticia {
+    font-size: xxx-large;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.sub-noticia {
+    font-size: xx-large;
+    padding: 0 5px;
+}
+
+.noticias {
+    width: 70%;
+}
+
+.caja-noticias {
+    border-top: solid 1px rgb(117, 117, 117);
+    border-bottom: solid 1px rgb(117, 117, 117);
+    padding: 30px 0;
+}
+
+.img-noticias {
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 2px #858585;
+}
+
+strong {
+    font-size: 1.25rem;
+    color: rgb(104, 104, 104);
+}
+
+.sesion {
+    height: 90vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-height: 100vh;
+    background-image: url("../storage/imgs/sunset-in-the-field-of-wheat-wallpaper-3840x1280_105.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-sesion {
+    background-color: #a16819fa;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 0px #000;
+    width: 40%;
+    margin: 10vh auto;
+    padding: 20px 2vw;
+    border-radius: 6px;
+}
+
+.titulo-sesion {
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.label-sesion {
+    margin-bottom: 0.5rem;
+    padding: 25px;
+    width: 80px;
+    height: 80px;
+}
+
+.input-sesion {
+    border-radius: 0;
+    height: 80px;
+    font-size: large;
+}
+
+.div-sesion {
+    background-color: #fffeff;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.i-sesion {
+    color: #636162;
+}
+
+.input-sesion::placeholder {
+    color: #636162;
+}
+
+.btn-sesion {
+    background-color: #2cab67;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 0;
+    box-shadow: 0px 0px 4px 0px #56320e;
+    margin: 20px 0;
+}
+
+.admin {
+    font-family: sans-serif;
+}
+
+th {
+    font-size: larger;
+}
+
+h2.admin {
+    display: inline-block;
+}
+
+.form-noticias {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.btn-home {
+    background-color: #2cab67;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 0;
+    width: 100%;
+    border: 5px solid #a16819fa;
+}
+.btn-home:hover {
+    background-color: transparent;
+    border: 5px solid #2cab67;
+    color: #ffffff;
+}
+
+.btn-noticias {
+    background-color: #2cab67;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 0;
+    margin: 20px 0;
+    width: 100%;
+    border: 5px solid #ffffff;
+}
+
+.btn-noticias:hover {
+    background-color: transparent;
+    border: 5px solid #2cab67;
+    color: black;
+}
+
+.btn-primary {
+    border: 5px solid transparent;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    border: 5px solid var(--bs-btn-hover-bg);
+    color: black;
+}
+
+.btn-warning {
+    border: 5px solid transparent;
+    color: #ffffff;
+}
+
+.btn-warning:hover {
+    background-color: transparent;
+    border: 5px solid var(--bs-btn-hover-bg);
+    color: black;
+}
+
+.btn-danger {
+    border: 5px solid transparent;
+}
+
+.btn-danger:hover {
+    background-color: transparent;
+    border: 5px solid var(--bs-btn-hover-bg);
+    color: black;
+}
+
+.admin-noticias {
+    width: 95%;
+    margin: auto;
+}
+
+.img-admin-noticias {
+    max-width: 200px;
+    height: auto;
+}
+
+.campos-grandes {
+    max-width: 200px;
+}
+
+.imagen-noticias {
+    max-height: 200px;
+}
+
+.btn-danger {
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 0;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.btn-warning {
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 0;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.btn-primary {
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 0;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.img-google {
+    max-height: 80px;
+}
+
+.width3 {
+    width: 33.33333333%;
+    margin: auto;
+}
+
+.colorW {
+    color: white;
+    letter-spacing: 2px;
+}
+
+.svelte-1a1oxv8 {
+    color: #ffffff!important;
+}

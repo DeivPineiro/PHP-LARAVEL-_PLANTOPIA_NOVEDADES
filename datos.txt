@@ -1,0 +1,65 @@
+Carrera: Diseño y Programación Web
+
+Materia: Portales y Comercio Electrónico
+
+Cuatrimestre: 4to Cuatrimestre
+
+Año: 2023
+
+Turno: Noche
+
+Comisión: DWN4BV
+
+Alumnos: David Piñeiro - Lucia Muñoz Larreta - Lucas Orlando
+
+Docente: Santiago Gallino
+
+Entrega: Final
+
+
+Users
+-----
+            [               
+                'name' => 'David Piñeiro',
+                'email' => 'david.pineiro@davinci.edu.ar',
+                'editor' => 1,
+                'password' => Hash::make('123456'),
+            ],
+            [
+                'id' => 2,
+                'name' => 'Lucas Orlando',
+                'email' => 'lucas.orlando@davinci.edu.ar',
+                'editor' => 1,
+                'password' => Hash::make('123456'),
+            ],
+            [
+                'id' => 3,
+                'name' => 'Lucia Muñoz',
+                'email' => 'lucia.munoz@davinci.edu.ar',
+                'editor' => 1,
+                'password' => Hash::make('123456'), 
+            ],
+            [
+                'id' => 4,
+                'name' => 'Santiago Gallino',
+                'email' => 'santiago.gallino@davinci.edu.ar',
+                'editor' => 1,
+                'password' => Hash::make('123456'), 
+            ],
+            [
+                'id' => 5,
+                'name' => 'Fulano',
+                'email' => 'fulano@davinci.edu.ar',
+                'editor' => 0,
+                'password' => Hash::make('123456'), 
+            ],
+            [
+                'id' => 6,
+                'name' => 'Mengano',
+                'email' => 'mengano@davinci.edu.ar',
+                'editor' => 0,
+                'password' => Hash::make('123456'),  
+            ],
+
+
+Saludos y buenas correcciones. 
